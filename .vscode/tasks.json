@@ -1,0 +1,100 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Activity 1",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity1_cli_basics.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "Build Activity 2",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity2_fsm_cli.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "Build Activity 3",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity3_calculator.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "Build Activity 4 Application",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity4_application.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "Build Activity 4 Tests",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity4_tests.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Activity 1: CLI Basics",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity1_cli_basics.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 1"
+        },
+        {
+            "name": "Activity 2: FSM CLI",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity2_fsm_cli.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 2"
+        },
+        {
+            "name": "Activity 3: Calculator Library",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity3_calculator.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 3"
+        },
+        {
+            "name": "Activity 4: Interactive Application",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity4_application.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 4 Application"
+        },
+        {
+            "name": "Activity 4: Unit Tests",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity4_tests.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 4 Tests"
+        }
+    ]
+}
